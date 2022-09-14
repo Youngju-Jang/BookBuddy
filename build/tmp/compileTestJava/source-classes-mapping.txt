@@ -1,2 +1,2 @@
-moviebuddy/MovieBuddyApplicationTest.java
- moviebuddy.MovieBuddyApplicationTest
+moviebuddy/domain/MovieFinderTest.java
+ moviebuddy.domain.MovieFinderTest
