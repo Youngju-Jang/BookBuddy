@@ -7,6 +7,10 @@ moviebuddy/util/FileSystemUtils.java
  moviebuddy.util.FileSystemUtils
 moviebuddy/domain/Movie.java
  moviebuddy.domain.Movie
+moviebuddy/domain/JaxbMovieReader.java
+ moviebuddy.domain.JaxbMovieReader
+ moviebuddy.domain.JaxbMovieReader$MovieData
+ moviebuddy.domain.JaxbMovieReader$MovieMetadata
 moviebuddy/domain/MovieReader.java
  moviebuddy.domain.MovieReader
 moviebuddy/domain/CsvMovieReader.java
