@@ -2,6 +2,8 @@ package moviebuddy.domain;
 
 import moviebuddy.ApplicationException;
 import moviebuddy.util.FileSystemUtils;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
 import java.net.URI;
@@ -15,6 +17,8 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+@Component // @ComponentScan 가 찾을수있게함
+@Repository
 public class CsvMovieReader implements MovieReader{
 
     /**

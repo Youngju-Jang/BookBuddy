@@ -13,10 +13,10 @@ moviebuddy/domain/JaxbMovieReader.java
  moviebuddy.domain.JaxbMovieReader$MovieMetadata
 moviebuddy/domain/MovieReader.java
  moviebuddy.domain.MovieReader
-moviebuddy/domain/CsvMovieReader.java
- moviebuddy.domain.CsvMovieReader
 moviebuddy/domain/MovieFinder.java
  moviebuddy.domain.MovieFinder
+moviebuddy/domain/CsvMovieReader.java
+ moviebuddy.domain.CsvMovieReader
 moviebuddy/MovieBuddyApplication.java
  moviebuddy.MovieBuddyApplication
  moviebuddy.MovieBuddyApplication$Command

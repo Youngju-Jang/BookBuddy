@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="moviebuddy.domain.MovieFinderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-16T05:44:06" hostname="DESKTOP-FLOUDI3" time="0.117">
+<testsuite name="moviebuddy.domain.MovieFinderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-16T07:52:24" hostname="DESKTOP-FLOUDI3" time="0.159">
   <properties/>
-  <testcase name="NotEmpty_ReleasedYearBy()" classname="moviebuddy.domain.MovieFinderTest" time="0.087"/>
-  <testcase name="NotEmpty_directedBy()" classname="moviebuddy.domain.MovieFinderTest" time="0.016"/>
+  <testcase name="NotEmpty_ReleasedYearBy()" classname="moviebuddy.domain.MovieFinderTest" time="0.108"/>
+  <testcase name="NotEmpty_directedBy()" classname="moviebuddy.domain.MovieFinderTest" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
