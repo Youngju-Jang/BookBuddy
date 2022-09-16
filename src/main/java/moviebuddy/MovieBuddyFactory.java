@@ -15,15 +15,9 @@ import org.springframework.context.annotation.*;
 public class MovieBuddyFactory {
     @Configuration
     static class DomainModuleConfig {
-        //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE) // 프로토타입 >> 빈객체 요청시마다 새로운 빈객체 생성
-        @Bean
-        public MovieFinder movieFinder(MovieReader movieReader) {
-            return new MovieFinder(movieReader);
-        }
     }
 
     @Configuration
     static class DataSourceModuleConfig {
-       
     }
 }

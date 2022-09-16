@@ -17,7 +17,8 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-@Component // @ComponentScan 가 찾을수있게함
+// @Component >> @ComponentScan 가 찾을수있게함 // 하위버전 > repository, service ..etc
+//@Repository("movieReader")
 @Repository
 public class CsvMovieReader implements MovieReader{
 

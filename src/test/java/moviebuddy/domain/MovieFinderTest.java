@@ -13,8 +13,10 @@ import java.util.List;
  */
 public class MovieFinderTest {
 
-	final ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MovieBuddyFactory.class);
-	final MovieFinder movieFinder = applicationContext.getBean(MovieFinder.class);
+	final ApplicationContext applicationContext =
+			new AnnotationConfigApplicationContext(MovieBuddyFactory.class);
+	final MovieFinder movieFinder =
+			applicationContext.getBean(MovieFinder.class);
 
 	@Test
 	void NotEmpty_directedBy(){
