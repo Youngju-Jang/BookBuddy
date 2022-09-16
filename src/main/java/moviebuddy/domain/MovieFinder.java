@@ -19,9 +19,15 @@ import java.util.stream.Collectors;
 
 public class MovieFinder {
 
-    private MovieReader movieReader = new CsvMovieReader();
+    // 객체 생성시점에 받을수있도록 final
+    private final MovieReader movieReader;
+    public MovieFinder(MovieReader movieReader){
+        this.movieReader = Objects.requireNonNull(movieReader);
+    }
+    
     /**
      * 저장된 영화 목록에서 감독으로 영화를 검색한다.
+     *
      *
      * @param directedBy 감독
      * @return 검색된 영화 목록
