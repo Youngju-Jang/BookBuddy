@@ -3,6 +3,7 @@ package moviebuddy.data;
 import moviebuddy.ApplicationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -20,13 +21,14 @@ public abstract class AbstractFileSystemMovieReader {
         return metadata;
     }
 
+    @Value("${movie.metadata}")
     public void setMetadata(String metadata) {
-        this.metadata = metadata;
+        this.metadata = Objects.requireNonNull(metadata, "metadata is a required value.");
     }
 
     @PostConstruct
     public void afterPropertiesSet() throws Exception {
-        URL metadataUrl = ClassLoader.getSystemResource(metadata);
+        URL metadataUrl = ClassLoader.getSystemResource(getMetadata());
         if (Objects.isNull(metadataUrl)) {
             throw new FileNotFoundException(metadata);
         }
