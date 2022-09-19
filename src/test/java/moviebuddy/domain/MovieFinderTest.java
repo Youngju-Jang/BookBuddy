@@ -25,11 +25,9 @@ import java.util.List;
 @SpringJUnitConfig(MovieBuddyFactory.class)
 public class MovieFinderTest {
 
-	final ApplicationContext applicationContext =
-			new AnnotationConfigApplicationContext(MovieBuddyFactory.class);
 
 //@Autowired >> 1)생성자, 2)settter 3) field(비추) 사옹가능
-
+	//@Autowired ApplicationContext applicationContext;
 	@Autowired MovieFinder movieFinder; // 방법 3
 
 	// 방법 1
