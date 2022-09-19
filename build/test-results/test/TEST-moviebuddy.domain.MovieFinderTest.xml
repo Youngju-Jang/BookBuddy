@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="moviebuddy.domain.MovieFinderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-16T08:12:16" hostname="DESKTOP-FLOUDI3" time="0.128">
-  <properties/>
-  <testcase name="NotEmpty_ReleasedYearBy()" classname="moviebuddy.domain.MovieFinderTest" time="0.077"/>
-  <testcase name="NotEmpty_directedBy()" classname="moviebuddy.domain.MovieFinderTest" time="0.017"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
