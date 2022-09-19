@@ -11,14 +11,16 @@ moviebuddy/MovieBuddyFactory.java
  moviebuddy.MovieBuddyFactory
  moviebuddy.MovieBuddyFactory$DataSourceModuleConfig
  moviebuddy.MovieBuddyFactory$DomainModuleConfig
+moviebuddy/data/CsvMovieReader.java
+ moviebuddy.data.CsvMovieReader
 moviebuddy/domain/MovieReader.java
  moviebuddy.domain.MovieReader
-moviebuddy/domain/JaxbMovieReader.java
- moviebuddy.domain.JaxbMovieReader
- moviebuddy.domain.JaxbMovieReader$MovieData
- moviebuddy.domain.JaxbMovieReader$MovieMetadata
-moviebuddy/domain/CsvMovieReader.java
- moviebuddy.domain.CsvMovieReader
+moviebuddy/MovieBuddyProfile.java
+ moviebuddy.MovieBuddyProfile
+moviebuddy/data/JaxbMovieReader.java
+ moviebuddy.data.JaxbMovieReader
+ moviebuddy.data.JaxbMovieReader$MovieData
+ moviebuddy.data.JaxbMovieReader$MovieMetadata
 moviebuddy/MovieBuddyApplication.java
  moviebuddy.MovieBuddyApplication
  moviebuddy.MovieBuddyApplication$Command

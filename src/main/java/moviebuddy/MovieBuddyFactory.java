@@ -1,10 +1,5 @@
 package moviebuddy;
 
-import moviebuddy.domain.CsvMovieReader;
-import moviebuddy.domain.MovieFinder;
-import moviebuddy.domain.MovieReader;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
 
 // Import >> 다른 클래스에서 빈구성정보를 불러오기위해 사용함
