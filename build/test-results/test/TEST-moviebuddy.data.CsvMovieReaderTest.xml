@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="moviebuddy.data.CsvMovieReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-20T03:21:35" hostname="DESKTOP-FLOUDI3" time="0.128">
+  <properties/>
+  <testcase name="Valid_Metadata()" classname="moviebuddy.data.CsvMovieReaderTest" time="0.122"/>
+  <testcase name="Invalid_Metadata()" classname="moviebuddy.data.CsvMovieReaderTest" time="0.005"/>
+  <system-out><![CDATA[12:21:35.664 [Test worker] INFO moviebuddy.data.CsvMovieReader - class path resource [movie_metadata.csv] is ready.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

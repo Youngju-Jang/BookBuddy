@@ -2,6 +2,7 @@ package moviebuddy.data;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.springframework.cache.support.NoOpCacheManager;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.util.Assert;
 
@@ -11,7 +12,7 @@ public class CsvMovieReaderTest {
 
     @Test
     void Valid_Metadata() throws Exception {
-        CsvMovieReader movieReader = new CsvMovieReader();
+        CsvMovieReader movieReader = new CsvMovieReader(new NoOpCacheManager());
         movieReader.setMetadata("movie_metadata.csv");
         movieReader.setResourceLoader(new DefaultResourceLoader());
 
@@ -20,7 +21,7 @@ public class CsvMovieReaderTest {
 
     @Test
     void Invalid_Metadata(){
-        CsvMovieReader movieReader = new CsvMovieReader();
+        CsvMovieReader movieReader = new CsvMovieReader(new NoOpCacheManager());
         movieReader.setResourceLoader(new DefaultResourceLoader());
 
         Assertions.assertThrows(FileNotFoundException.class, () -> {
