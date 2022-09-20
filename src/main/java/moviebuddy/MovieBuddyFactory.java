@@ -1,15 +1,7 @@
 package moviebuddy;
 
-import moviebuddy.data.AbstractFileSystemMovieReader;
-import moviebuddy.data.CsvMovieReader;
-import moviebuddy.data.XmlMovieReader;
 import org.springframework.context.annotation.*;
-import org.springframework.core.env.Environment;
-import org.springframework.oxm.Unmarshaller;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
-
-import java.io.FileNotFoundException;
-import java.net.URISyntaxException;
 
 // Import >> 다른 클래스에서 빈구성정보를 불러오기위해 사용함
 //@ImportResource("xml file location") // >> 빈 구성정보 불러올 수 있음

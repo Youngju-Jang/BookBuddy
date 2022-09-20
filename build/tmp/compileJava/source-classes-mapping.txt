@@ -13,8 +13,6 @@ moviebuddy/MovieBuddyProfile.java
  moviebuddy.MovieBuddyProfile
 moviebuddy/domain/MovieReader.java
  moviebuddy.domain.MovieReader
-moviebuddy/data/AbstractFileSystemMovieReader.java
- moviebuddy.data.AbstractFileSystemMovieReader
 moviebuddy/data/CsvMovieReader.java
  moviebuddy.data.CsvMovieReader
 moviebuddy/data/XmlMovieReader.java
@@ -28,3 +26,5 @@ moviebuddy/MovieBuddyFactory.java
  moviebuddy.MovieBuddyFactory
  moviebuddy.MovieBuddyFactory$DataSourceModuleConfig
  moviebuddy.MovieBuddyFactory$DomainModuleConfig
+moviebuddy/data/AbstractMetadataResourceMovieReader.java
+ moviebuddy.data.AbstractMetadataResourceMovieReader
